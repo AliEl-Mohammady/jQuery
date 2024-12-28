@@ -1,0 +1,222 @@
+body{
+    margin: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family:Arial;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+    cursor: pointer;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px auto;
+}
+
+
+ul input{
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin: 15px auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.addClass{
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100px;
+    background-color: #f3f3f3;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.selected{
+    border: 10px solid #e71212;
+}
+
+.cssProperties{
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 56%, 61%);
+    cursor: pointer;
+    margin: 15px auto;
+}
+
+.dimension {
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 56%, 61%);
+    cursor: pointer;
+    margin: 15px auto;
+    width: 500px;
+}
+
+.superGrandF{
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 56%, 61%);
+    cursor: pointer;
+    margin: 15px auto;
+    width: 800px;
+}
+
+.grandF{
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 56%, 61%);
+    cursor: pointer;
+    margin: 15px auto;
+}
+
+.Parent{
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 56%, 61%);
+    cursor: pointer;
+    margin: 15px 5px;
+}
+
+.child {
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 56%, 61%);
+    cursor: pointer;
+    margin: 15px auto;
+}   
+
+.sibling{
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 56%, 61%);
+    cursor: pointer;
+    margin: 15px auto;
+    background-color: aquamarine;
+}
+
+.last{
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 56%, 61%);
+    cursor: pointer;
+    margin: 15px auto;
+    background-color: rgb(170, 176, 176);
+}
+
+.selector{
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 56%, 61%);
+    cursor: pointer;
+    margin: 15px auto;
+    background-color: rgb(115, 182, 188);
+    width: 500px;
+}
+
+.inputs{
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 56%, 61%);
+    cursor: pointer;
+    margin: 15px auto;
+    background-color: rgb(115, 182, 188);
+    width: 800px;
+}
+
+.key {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 56%, 61%);
+    cursor: pointer;
+    margin: 5px 5px;
+    background-color: rgb(115, 182, 188);
+    width: 800px;
+    text-align: left;
+}
+
+textarea {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 56%, 61%);
+    cursor: pointer;
+    margin: 5px 5px;
+    background-color: rgb(115, 182, 188);
+    text-align: left;
+}
+
+.scrool {
+    padding: 10px 20px;
+    border-radius: 50%;
+    border: 1px solid hsl(186, 56%, 61%);
+    cursor: pointer;
+    margin: auto auto;
+    background-color: red;
+    text-align: left;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
+
+.pageX {
+    padding: 10px 20px;
+    border-radius: 50%;
+    border: 1px solid hsl(186, 56%, 61%);
+    cursor: pointer;
+    margin: auto auto;
+    background-color: red;
+    text-align: left;
+    text-align: center;
+    display: none;
+}
